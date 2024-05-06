@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(47, 88%, 63%);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .boad{
+      border: 100px;
+      border-radius: 4px;
+      height: 30px;
+      width: 70px;
+      background-color: hsl(47, 88%, 63%);
+      margin-left: 10px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-weight: 800;
+    }
+    .large{
+      font-size: x-large;
+      font-weight: 900;
+    }
+    .diva{
+      border: 10px;
+      width: 360px;
+      transform: scale(0.8);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        box-shadow: 7px 7px black;
+      
+
+    }
+    .margin{
+    transform: scale(0.9);
+    }
+    .left{
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    .contain{
+      display: flex;
+      align-items: center;
+    }
+    .center{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="center">
+  <div class="diva">
+    <div class="margin">
+    <img src="./assets/images/illustration-article.svg" style="margin-top: 10px; margin-left: 10px; margin-right: 20px;">
+
+    <p class="boad">Learning</p>
+   <div class="left">
+    <p>Published 21 Dec 2023</p>
+   
+    <p class="large">HTML & CSS foundations</p>
+   
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+   <div class="contain">
+    <img src="assets/images/image-avatar.webp"> <p style="margin-left:10px; font-weight: 800;">Greg Hooper</p>
+   </div>
+   </div>
+    </div>
+  </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">dannybraize</a>.
+  </div>
+</body>
+</html>
